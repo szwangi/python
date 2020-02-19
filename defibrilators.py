@@ -2,11 +2,10 @@
 7
 3,874054
 43,606779
-4
+3
 107;Caisse Primaire d'Assurance Maladie;29 cours Gambetta 34000 MONTPELLIER;04 99 52 54 49;3,87110915929521;43,6065196099402
 108;Caisse Primaire d'Assurance Maladie;90 allee Almicare Calvetti 34000 Montpellier;04 99 52 54 49;3,82126953167633;43,6322018829039
 109;Caisse d'assurance retraite et de la Sante au travail;29 cours Gambetta 34000 MONTPELLIER;04 67 12 94 72;3,87064343057042;43,6068847626242
-110;Caisse d'assurance retraite et de la Sante au travail;Century 2 , 101 place pierre Duhem le millenaire 34000 MONTPELLIER;04 67 12 94 72;3,91465549573187;43,6068978500869
 1
 '''
 import sys
