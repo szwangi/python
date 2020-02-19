@@ -1,4 +1,3 @@
-#asadsadsadsa
 '''input
 7
 3,8740542
