@@ -1,6 +1,7 @@
+#asadsadsadsa
 '''input
 7
-3,874054
+3,8740542
 43,606779
 3
 107;Caisse Primaire d'Assurance Maladie;29 cours Gambetta 34000 MONTPELLIER;04 99 52 54 49;3,87110915929521;43,6065196099402
