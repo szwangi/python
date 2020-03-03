@@ -1,38 +1,30 @@
 '''input
-8
-3
+11
+10
 5
-html text/html
-png image/png
-gif image/gif
-animated......gifs
-portrait.pNg
-index.Html
-a
-.
+5
+17
+3
+8
+11
+28
+6
+55
+7
 '''
 import sys
 import math
 
-
-a=input()
-n = int(raw_input())  # Number of elements which make up the association table.
-q = int(raw_input())  # Number Q of file names to be analyzed.
-
-dictio={}
+arg=input()
+n = int(raw_input())
+lista =[]
+diff = 1000
 for i in range(n):
-    # ext: file extension
-    # mt: MIME type.
-    ext, mt = raw_input().split()
-    dictio[ext] = mt
-for i in range(q):
-    fname = raw_input()  # One file name per line.
-    if "." in fname:
-	    index = len(fname)-fname[::-1].index(".")
-	    fext=fname[index:].lower()
-	    if fext in dictio:
-		    print(dictio[fext])
-	    else:
-	    	print("UNKNOWN")
-    else:
-		print("UNKNOWN")
+    pi = int(raw_input())
+    lista.append(pi)
+lista = sorted(lista)
+for i in range(len(lista)-1):
+	if lista[i+1] - lista[i] < diff:
+		diff = lista[i+1] - lista[i]
+print(lista)
+print(diff)
