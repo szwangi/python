@@ -1,0 +1,23 @@
+interface TenGigabitEthernet2/3
+description Trunk vers laa02-1.sw
+switchport trunk allowed vlan 110,612,712
+switchport mode trunk
+mtu 9198
+logging event link-status
+logging event trunk-status
+udld port
+flowcontrol receive off
+channel-group 1 mode active
+service-policy output free_qos
+
+interface TenGigabitEthernet2/5
+description Trunk vers laa02-1.sw
+switchport trunk allowed vlan 110,612,712
+switchport mode trunk
+mtu 9198
+logging event link-status
+logging event trunk-status
+udld port
+flowcontrol receive off
+channel-group 1 mode active
+service-policy output free_qos

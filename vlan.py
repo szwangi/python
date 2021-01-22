@@ -1,6 +1,6 @@
 from string import Template
-filein = open( 'template_interfaces.txt' )
-template_interfaces = Template( filein.read() )
+filein = open( 'template_vlan.txt' )
+template_vlan = Template( filein.read() )
 #document data
 nr_vlans = (input("How many vlans besides vlan 110: "))
 result = ""
